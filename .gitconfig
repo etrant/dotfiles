@@ -1,0 +1,31 @@
+[user]
+	gpgSign = true
+
+[pull]
+	rebase = true
+
+[core]
+	pager = delta --dark --paging=never
+
+[diff]
+	tool = difftastic
+
+[delta]
+	features = chameleon
+	side-by-side = true
+	line-numbers = true
+
+[init]
+	defaultBranch = main
+
+[tag]
+	gpgSign = true
+
+[gpg]
+	program = gpg
+
+[rebase]
+	updateRefs = true
+
+[include]
+    path = ~/.config/delta/themes.gitconfig
